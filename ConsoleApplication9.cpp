@@ -21,7 +21,7 @@ void remove(char* exp, unsigned short int* startindex, unsigned short int* count
     {
         new_exp[i] = ' ';
     }
-    for (i = *startindex; i < sum; i++)
+    for (i = *startindex; i < sum + 1; i++)
     {
         exp[i] = ' ';
     }
